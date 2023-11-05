@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <h1>Un program JavaScript</h1>
+        <p id="demo">Acest text isi va modifica marimea si culoarea</p>
+        <p id="demo1">boo</p>
+        <script>
+          function functiaMea()
+          {
+            document.getElementById("demo").style.fontSize = "30px";
+            document.getElementById("demo1").style.color = "red";
+          }
+        </script>
+        <button type="button" onclick="functiaMea()">da click</button>
+        <noscript>Ne pare rau dar browser-ul dumneavoastra nu accepta JavaScript</noscript>
+        <p>Un browser care nu suporta JavaScript va afisa ce este in interiorule tagului "nonscript"</p>
+    </body>
+</html>
