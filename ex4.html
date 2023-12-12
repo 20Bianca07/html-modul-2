@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <center>
+      <table bgcolor="WhiteSmoke" border="1" width="400">
+        <tr>
+          <td>
+            <script type="text/javascript">
+              document.write(
+                "<center><br>Afisarea datei si timpului</center><br>"
+              );
+              var d = new Date();
+              document.write("Astazi este:", Date(), "<br>");
+              var an = d.getYear();
+              document.write("Anul; ", an);
+              var lu = d.getMonth("Luna: ", lu + 1);
+              var zi = d.getDate();
+              document.write("Ziua: ", zi, "<br>");
+              var or = d.getHours();
+              document.write("Ora: ", or);
+              var mi = d.getMinutes();
+              document.write("Minutul: ", mi);
+              var se = d.getSeconds();
+              document.write("Secunda: ", se, "<br><br>");
+            </script>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
