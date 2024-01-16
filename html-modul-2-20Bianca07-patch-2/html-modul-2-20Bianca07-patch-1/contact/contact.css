@@ -43,3 +43,14 @@
 body{
     background-color: rgb(126, 231, 250);
 }
+
+.jumbotron{
+    color: white;
+    background: linear-gradient(to top right, rgba(5,2,66,1), rgb(172, 26, 209));
+}
+
+@media (max-width: 1000px){
+    iframe{
+        width: 400px;
+    }
+}
