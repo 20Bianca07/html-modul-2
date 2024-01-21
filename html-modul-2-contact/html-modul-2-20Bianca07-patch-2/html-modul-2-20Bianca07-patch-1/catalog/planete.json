@@ -1,0 +1,46 @@
+{
+    "planete" : [
+        {
+            "nume" : "Mercur",
+            "localizare" : "prima de la Soare",
+            "marime" : "4,879 km",
+            "descriere" : "Mercury's surface temperatures are both extremely hot and cold. Because the planet is so close to the Sun, day temperatures can reach highs of 800°F (430°C). Without an atmosphere to retain that heat at night, temperatures can dip as low as -290°F (-180°C).",
+            "poza" : "https://us.123rf.com/450wm/vadimjoker/vadimjoker2302/vadimjoker230200176/198084847-mercury-a-planet-in-the-solar-system-colorful-image.jpg?ver=6"
+        },
+        {
+            "nume" : "Venus",
+            "localizare" : "a doua de la Soare",
+            "marime" : "12,104 km",
+            "descriere" : "Similar in structure and size to Earth, Venus spins slowly in the opposite direction from most planets. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains.",
+            "poza" : "https://indiaeducationdiary.in/wp-content/uploads/2021/06/imagesvenus20191211venus20191211-16-450x300.jpeg"
+        },
+        {
+            "nume" : "Jupiter",
+            "localizare" : "a cincea de la Soare",
+            "marime" : "142,984 km",
+            "descriere" : "Jupiter's stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of years.",
+            "poza" : "https://live-production.wcms.abc-cdn.net.au/a71e3b3dd1c4de43e5465db6100c1368?impolicy=wcms_crop_resize&cropH=300&cropW=450&xPos=0&yPos=0&width=862&height=575"
+        },
+        {
+            "nume" : "Saturn",
+            "localizare" : "a sasea de la Soare",
+            "marime" : "116,500 km",
+            "descriere" : "Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons.",
+            "poza" : "https://us.123rf.com/450wm/dteurope/dteurope1707/dteurope170700009/82398303-a-3d-rendering-from-the-planet-saturn-with-the-earth-in-the-background-elements-of-this-image-are.jpg"
+        },
+        {
+            "nume" : "Uranus",
+            "localizare" : "a saptea de la Soare",
+            "marime" : " 51,118 km",
+            "descriere" : "Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin sideways, orbiting the Sun like a rolling ball.",
+            "poza" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvuxNLRbpRM_QEezqxlWS-PQG4aPuPsZkPuw&usqp=CAU"
+        },
+        {
+            "nume" : "Neptun",
+            "localizare" : "a opta de la Soare",
+            "marime" : "49,528 km",
+            "descriere" : "Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846.",
+            "poza" : "https://us.123rf.com/450wm/archangel80889/archangel808892001/archangel80889200100320/139373199-planet-neptune-on-a-dark-background.jpg"
+        }
+    ]
+}
