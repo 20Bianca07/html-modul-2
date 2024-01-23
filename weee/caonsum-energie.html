@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <center>
+            <table backgroundcolor="WhiteSmoke" border=1 width="600px">
+                <tr><td>
+                    <center>
+                        <font size=4 colo="blue">Consumuri energie lunare</font>(maxim 400 Kwh)</font>
+                        <hr>
+                        <script type="text/javascript">
+                            var i;
+                            luni = new Array("Ianuarie","Februarie","Martie","Aprilie","Mai","Iunie","Iulie","August","Septembrie","Octombrie","Noiembrie","Decembrie")
+                            consum = new Array(340,272,330,250,234,342,357,323,243,345,205,234);
+                            document.write("<table border=1> <tr>")
+                            for (i=0; i < 12; i++){
+                                document.write("<tr><td>",luni[i],"</td>");
+                                document.write("<td><table valign\"midle\"cellPadding=0 cellSpacing=0> <tr><td height=\"15\"background=\"lin_400.bmp\"width=\"400\"align=\"left\">");
+                                document.write("<hr align=\"left\"color=\"red\"size=\"5\"width=\"",consum[i],"\"></td>");
+                                document.write("<td><font size=3 color=\"red\">",consum[i],"<font size=3 color=\"blue\">Kmh</font></td></tr></table></td></tr>");
+                            }
+                            document.write("</table><br>")
+                        </script>
+                    </center>
+                </td></tr>
+            </table>
+        </center>
+    </body>
+</html>

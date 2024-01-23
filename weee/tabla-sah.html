@@ -1,0 +1,43 @@
+<html>
+    <body>
+        <center>
+            <table backgroundcolor="WhiteSmoke" border=1 style="max-width:350px;width:150%">
+                <tr><td>
+                    <center>
+                        Tabla de sah
+                        <hr>
+                        <script type="text/javascript">
+                            document.writeln("<table border=1>");
+                                var i=1,j=1,k=1;
+                                do{
+                                    document.writeln("<try>");
+                                    i=1;
+                                do{
+                                    if((i+j)%2!=0)
+                                    {
+                                        document.writeln('<td bgcolor="Black">');
+                                        document.writeln(" ");
+                                        document.writeln("</td>");
+                                    }
+                                    else
+                                    {
+                                        document.writeln('<td bgcolor="White">');
+                                        document.writeln(" ");
+                                        document.writeln("</td>");
+                                    }
+                                   i+=1;
+                                   k+=1; 
+                                } while(i<=8);
+                                document.writeln("<tr>");
+                                i=1;
+                                j+=1;
+                                document.writeln("</tr>");
+                                }while(j<=8);
+                            document.writeln("</table>")
+                        </script>
+                    </center>
+                </td></tr>
+            </table>
+        </center>
+    </body>
+</html>
