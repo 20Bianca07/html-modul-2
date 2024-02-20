@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Bill Calculator</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="wrapper">
+          <div class="container">
+               <div class="title">Bill total</div>
+               <div class="inputContainer">
+                    <span>$</span>
+                    <input type="text" id="billTotalInput" placeholder="0.00" onkeyup="calculateBill()">
+               </div>
+          </div>
+          <div class="container">
+               <div class="title">Tip</div>
+               <div class="inputContainer"></div>
+               <span>%</span>
+               <input type="text" id="tipTotalInput" placeholder="10" onkeyup="calculateBill()">
+          </div>
+          <div class="container">
+               <div class="title">People</div>
+               <span>
+                    <button onclick="increasePeople()">+</button>
+               </span>
+               <span id="number">1</span>
+               <span>
+                    <button onclick="increasePeople()">-</button>
+               </span>
+               <div class="title">Total per person</div>
+               <div id="perPersonTotal">$0.00</div>
+          </div>
+     </div>
+     <script src="script.js"></script>
+</body>
+</html>
