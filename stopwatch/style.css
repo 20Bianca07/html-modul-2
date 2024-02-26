@@ -1,0 +1,29 @@
+body{
+    background-color: orange;
+    font-family: cursive;
+}
+
+.wrapper{
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#seconds, #mili {
+    font-size: 40px;
+}
+
+button {
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    color: white;
+    border: solid 1px;
+    width: 180px;
+    margin: 10px;
+    padding: 20px 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
