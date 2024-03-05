@@ -1,0 +1,21 @@
+#tabel-xo{
+    margin-top: 20px;
+    margin: auto;
+    border: 2px solid rgb(197, 26, 0);
+    border-collapse: collapse;
+    background: rgba(255, 234, 0, 0.596);
+}
+
+#tabel-xo tr td{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(197, 26, 0);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#tabel-xo tr td:hover{
+    background:rgba(255, 119, 22, 0.794);
+    cursor: pointer;
+}
